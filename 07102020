@@ -1,0 +1,18 @@
+print("nimic si mult ;D")
+a = input("apasa tasta r")
+print(a)
+print("Ana are prune \n Ion are mere ''''' ")
+V1 = 15
+V2 = 10
+V3 = f"Ana are {V1} prune {V2} pere."
+print(V3)
+V4 = "Ana are {1} prune si {0} pere".format(V1, V2)
+print(V4)
+V5 = "Ana are {1} pere si {1} pere".format(V1, V2)
+print(V5)
+print("V4 =>>", type(V4))
+print("V2 =>>", type(V2))
+V6 = "Ana are" + str(V2) + "prune."
+print("V6")
+print(V1-V2)
+
