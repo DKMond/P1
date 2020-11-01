@@ -8,7 +8,7 @@ def afiseaza_spanzuratoarea(incercari):
     :param incercari: 8
     :return: returneaza stagile incomplete ale spanzuratoearei
     """
-    stagii = [  # final state: head, torso, both arms, and both legs
+    stagii = [
                 """
                    --------
                    |      |
@@ -18,7 +18,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |     / \\
                    -
                 """,
-                # head, torso, both arms, and one leg
+
                 """
                    --------
                    |      |
@@ -28,7 +28,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |     / 
                    -
                 """,
-                # head, torso, and both arms
+
                 """
                    --------
                    |      |
@@ -38,7 +38,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |      
                    -
                 """,
-                # head, torso, and one arm
+
                 """
                    --------
                    |      |
@@ -48,7 +48,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |     
                    -
                 """,
-                # head and torso
+
                 """
                    --------
                    |      |
@@ -58,7 +58,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |     
                    -
                 """,
-                # head
+
                 """
                    --------
                    |      |
@@ -68,7 +68,7 @@ def afiseaza_spanzuratoarea(incercari):
                    |     
                    -
                 """,
-                # initial empty state
+
                 """
                    --------
                    |      |
